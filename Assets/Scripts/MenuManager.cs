@@ -4,13 +4,18 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class MenuManager : MonoBehaviour
-{
-    public GameObject data;
-    
+{   
 
     public void PlayButton()
     {
         SceneManager.LoadScene(1);
     }
-
+     public void RestartButton()
+    {
+        SceneManager.LoadScene(1);
+    }
+    public void MenuButton()
+    {
+        SceneManager.LoadScene(0);
+    }
 }

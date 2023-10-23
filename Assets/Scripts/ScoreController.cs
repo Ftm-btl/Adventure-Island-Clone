@@ -9,7 +9,6 @@ public class ScoreController : MonoBehaviour
     private float ranY;
     private float ranX;
     private Vector2 whereToSpawn;
-    //private float _scoreText=2f;
     
 
     public float spawnRate = 1f;

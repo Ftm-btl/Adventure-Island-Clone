@@ -58,7 +58,7 @@ public class PlayerManager : MonoBehaviour
         if(health <= 0)
         {
             _dead = true;
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }        
     }
 
@@ -90,7 +90,7 @@ public class PlayerManager : MonoBehaviour
     {
         if (fall.position.y <= -5)
         {
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(2);
         }
     }
 }
